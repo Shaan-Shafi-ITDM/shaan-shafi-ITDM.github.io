@@ -1,1 +1,0 @@
-# Shaan-Shafi-ITDM.github.io
