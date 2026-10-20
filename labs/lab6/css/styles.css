@@ -1,5 +1,5 @@
 body{
-      background-image: url("labs/labs6/images/black.jpg"); 
+      background-image: url("../images/black.jpg"); 
 }
 
 #page-wrapper
@@ -41,7 +41,7 @@ body{
     clear: both;
   }
 #content-wrapper
-{   background-image: url("labs/lab6/images/repeating.png");
+{   background-image: url("../images/repeating.png");
     float: left;}
 #main-content
 {   min-height: 300px;
@@ -86,13 +86,13 @@ h2 strong
     position: relative;
     right: 50%;
   }
-  #main nav ul li
+  #main-nav ul li a
   {   padding: 10px 25px;
     display: block;
     text-decoration: none;
     color: #ccc;
   }
-  #main nav ul a:hover
+  #main-nav ul a:hover
   {   background-color: #ccc;
     color: #333;
   }
