@@ -1,8 +1,8 @@
 body{
-      background-image: url("/images/black.jpg"); 
+      background-image: url("labs/labs6/images/black.jpg"); 
 }
 
-#pagewrapper
+#page-wrapper
 {
   width: 960px;
   margin: 0 auto;
@@ -14,7 +14,7 @@ body{
   margin-top: 40px;
   border-radius: 12px 12px 0px 0px;
 }
-#h1header
+#header h1
 {   position: absolute;
     left: 420px;
     top:5px;
@@ -41,9 +41,9 @@ body{
     clear: both;
   }
 #content-wrapper
-{   background-image: url("/images/repeating.png");
+{   background-image: url("labs/lab6/images/repeating.png");
     float: left;}
-#main content
+#main-content
 {   min-height: 300px;
     width: 715px;
     margin-right: 30px;
@@ -68,7 +68,7 @@ h2 strong
     width: 200px;
     float: left;
 }
-#main nav
+#main-nav
 {   float: left;
     width: 100%;
     background-color: #333;
@@ -81,7 +81,7 @@ h2 strong
     position: relative;
     left:50%;
   }
-  #main nav ul li
+  #main-nav ul li
   {   float: left;
     position: relative;
     right: 50%;
