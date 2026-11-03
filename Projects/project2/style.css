@@ -1,0 +1,152 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #222222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*nav*/
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: #1f2a44;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #f00000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/*fluid pages*/
+body.fluid {
+  width: 90%;
+  max-width: 900px;
+}
+
+/*fixed-width page*/
+body.fixed {
+  width: 800px;
+}
+
+
+/*style 1 backdrop*/
+body.home {
+  background-color: #0448b6;
+}
+
+/*style 2 font */
+body.home h2 {
+  color: #1f2a44;
+  font-family: Georgia, serif;
+  margin-top: 1.5rem;
+}
+
+/*style 3 ParagraphSize*/
+body.home p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/*style 4 ImageBorder*/
+body.home img {
+  border: 0.2rem solid #1f2a44;
+  border-radius: 0.5rem;
+}
+
+/*style 5 audio*/
+body.home audio {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/*style 1 backdrop*/
+body.resume {
+  background-color: #7d00d1;
+}
+
+/*style 2 underline*/
+body.resume h2 {
+  color: #7a3e00;
+  border-bottom: 0.15rem solid #7a3e00;
+  padding-bottom: 0.25rem;
+}
+
+/*style 3 paragraph*/
+body.resume p {
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+
+body.resume h2 + ul {
+  list-style-type: square;
+  line-height: 1.8;
+}
+
+/*style 5 fonts*/
+body.resume {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+
+/*style 1 backdrop*/
+body.honors {
+  background-color: #8df6b0;
+}
+
+/*style 2 heading and spacing*/
+body.honors h2 {
+  color: #1b5e3a;
+  letter-spacing: 0.1rem;
+}
+
+/*style3 align and size*/
+body.honors p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/*style 4 centered image*/
+body.honors img {
+  display: block;
+  margin: 1rem auto;
+  box-shadow: 0.3rem 0.3rem 0.6rem #999999;
+}
+
+/*style 5 list styling*/
+body.honors h2 + p + ul {
+  background-color: #ffffff;
+  border-left: 0.3rem solid #1b5e3a;
+  padding: 1rem 1rem 1rem 2.5rem;
+}
+
+/*media query*/
+@media (max-width: 600px) {
+  nav li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  body.fixed {
+    width: 800px;
+  }
+}
