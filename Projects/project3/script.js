@@ -13,7 +13,6 @@ function initMap() {
   var marker1 = new google.maps.Marker({
     position: toulouse,
     map: myMap,
-    animation: google.maps.Animation.BOUNCE,
     title: "Toulouse, France",
     icon: {
       url: "images/toulouse.png",
